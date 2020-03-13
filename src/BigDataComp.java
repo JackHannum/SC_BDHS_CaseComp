@@ -5,7 +5,7 @@ import java.util.Map;
 public class BigDataComp {
 public static void main(String[] args) {
  //this code produces 63% accurate results for 1010000 patient records
- String folderPath = "C:\\Users\\jackh\\OneDrive\\Desktop\\CaseComp\\";
+ String folderPath = "";
  String chemFilePath = folderPath + "ChemicalsRangeOptimizedTop20.csv";
  //RangeOptimized = the 10 most common symptoms have been removed
  String dataFilePath = folderPath + "CaseCompetitionPatientDataRangeOptimizedTop20.csv";
