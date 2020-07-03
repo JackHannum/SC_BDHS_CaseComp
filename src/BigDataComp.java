@@ -76,7 +76,7 @@ public static void main(String[] args) {
      patient_no = patient_no + 1;
     }
     dataFile.close();
-    PrintWriter fileOut = new PrintWriter(new FileWriter("C:\\Users\\jackh\\OneDrive\\Desktop\\CaseComp\\testResults\\Top20Verification.csv"));
+    PrintWriter fileOut = new PrintWriter(new FileWriter("Top20Verification.csv"));
     fileOut.println("Matching Chemical");
     for(int k = 1; k < patient_no; k++) {
       //fileOut.println(patient.get(k)[0]);
